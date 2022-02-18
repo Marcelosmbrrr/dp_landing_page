@@ -58,16 +58,13 @@ const cardValues = {
 export function ProductItems() {
 
     return (
-      <Box py={12}>
+      <Box py={12} height={"100vh"}>
         <VStack spacing={2} textAlign="center">
           <Heading as="h1" fontSize="4xl">
-            São 3 livros pelo preço de 1!
+            PAGUE POR 1 E LEVE OUTROS 2!
           </Heading>
           <Text fontSize="lg" color={'gray.500'}>
-            O primeiro livro ensina os fundamentos lógicos da programação. 
-          </Text>
-          <Text fontSize="lg" color={'gray.500'}>
-            Os outros dois ensinam os mesmos fundamentos no contexto das linguagens de programação PHP e Javascript.
+            {/* texto */}
           </Text>
         </VStack>
         <Stack

@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import { PageHeader } from '../components/PageHeader'
 import { ProductContents } from '../components/ProductContents'
 import { ProductItems } from '../components/ProductItems'
+import { Footer } from '../components/Footer'
 
 
 export default function Home() {
@@ -20,11 +21,13 @@ export default function Home() {
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
       </Head>
 
-      <PageHeader />
+      <PageHeader/>
       <hr></hr>
       <ProductContents /> 
       <hr></hr>
       <ProductItems />
+      <hr></hr>
+      <Footer /> 
       
     
     </>

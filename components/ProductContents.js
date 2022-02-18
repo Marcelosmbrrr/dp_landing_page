@@ -35,14 +35,14 @@ export function ProductContents() {
 
 
     return (
-      <Box p={4}>
+      <Box p={4} bg={"#333"} color={"white"} height={"92vh"}>
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-          <Heading fontSize={'4xl'}>Em menos de 20 páginas!?</Heading>
-          <Text color={'gray.600'} fontSize={'xl'}>
-              Todas as linguagens de programação funcionam com os mesmos fundamentos! Conhecendo eles, todas são fácilmente compreensíveis.
+          <Heading fontSize={'4xl'}>EM MENOS DE 20 PÁGINAS!?</Heading>
+          <Text fontSize={'xl'}>
+              Todas as linguagens de programação funcionam utilizando os mesmos fundamentos! Conhecendo eles, todas são fácilmente compreensíveis.
           </Text>
-          <Text color={'gray.600'} fontSize={'xl'}>
-              "Fundamentos? Deve ser um blabla...", não! O propósito desse livro é preparar você para a prática pura com a melhor e mais intuitiva didática possível.
+          <Text fontSize={'xl'}>
+              "Fundamentos? Lá vem o blablabla computacional...", não! O propósito desse livro é preparar você para a prática pura com a melhor e mais intuitiva didática possível.
           </Text>
         </Stack>
   
@@ -50,12 +50,12 @@ export function ProductContents() {
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
             {features.map((feature) => (
               <HStack key={feature.id} align={'top'}>
-                <Box color={'blue.400'} px={2}>
+                <Box color={'red.400'} px={2}>
                   <Icon as={QuestionIcon} />
                 </Box>
                 <VStack align={'start'}>
                   <Text fontWeight={600}>{feature.title}</Text>
-                  <Text color={'gray.600'}>{feature.text}</Text>
+                  <Text>{feature.text}</Text>
                 </VStack>
               </HStack>
             ))}

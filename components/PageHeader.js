@@ -27,7 +27,7 @@ const MotionButton = motion(Button);
 export function PageHeader() {
 
     return (
-      <Container maxW={'7xl'}>
+      <Container maxW={'7xl'} height={"92vh"}>
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
@@ -45,7 +45,7 @@ export function PageHeader() {
               mais bem valorizadas atualmente? 
             </Text>
             <Text color={'gray.500'}>
-              Esse livro oferece os fundamentos para aprender qualquer linguagem de programação
+              Esse livro oferece os fundamentos para lidar com qualquer linguagem de programação
               em <Text as={'span'} color={'red.400'} fontWeight={600}>MENOS DE 20 PÁGINAS!</Text>
             </Text>
             <Stack
@@ -54,6 +54,7 @@ export function PageHeader() {
               <MotionButton
                 rounded={'full'}
                 size={'lg'}
+                w={"full"}
                 fontWeight={'normal'}
                 px={12}
                 colorScheme={'red'}
