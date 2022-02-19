@@ -35,7 +35,7 @@ const cardValues = {
   main: {
     title: 'Lógica de Programação',
     subtitle: 'EBOOK',
-    price: 'R$29.99',
+    price: 'R$19.99',
     oldprice: '',
     image: <MainBook />
   },
@@ -43,14 +43,14 @@ const cardValues = {
     title: 'Lógica de Programação com PHP',
     subtitle: 'EBOOK',
     price: 'R$0.00',
-    oldprice: 'R$29.99',
+    oldprice: 'R$19.99',
     image: <PHPBook />
   },
   js:{
     title: 'Lógica de Programação com JS',
     subtitle: 'EBOOK',
     price: 'R$0.00',
-    oldprice: 'R$29.99',
+    oldprice: 'R$19.99',
     image: <JSBook />
   }
 }

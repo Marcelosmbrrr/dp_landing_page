@@ -3,9 +3,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import { PageHeader } from '../components/PageHeader'
-import { ProductContents } from '../components/ProductContents'
 import { ProductItems } from '../components/ProductItems'
+import {EbookContents} from '../components/EbookContents'
 import { Footer } from '../components/Footer'
+
 
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
 
       <PageHeader/>
       <hr></hr>
-      <ProductContents /> 
+      <EbookContents /> 
       <hr></hr>
       <ProductItems />
       <hr></hr>

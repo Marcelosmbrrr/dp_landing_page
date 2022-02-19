@@ -45,7 +45,7 @@ export function PageHeader() {
               mais bem valorizadas atualmente? 
             </Text>
             <Text color={'gray.500'}>
-              Esse livro oferece os fundamentos para lidar com qualquer linguagem de programação
+              Esse livro oferece os fundamentos com uma linguagem acessível e intuitiva para lidar com qualquer linguagem de programação, e 
               em <Text as={'span'} color={'red.400'} fontWeight={600}>MENOS DE 20 PÁGINAS!</Text>
             </Text>
             <Stack
@@ -65,7 +65,7 @@ export function PageHeader() {
                   shake: {
                     rotate: [0, -10, 10, 0, -10, 10, 0],
                     transition: {
-                      delay: 2, duration: 1, repeat: Infinity, repeatDelay: 5
+                      delay: 2, duration: 1, repeat: Infinity, repeatDelay: 10
                     }
                   }
                 }}
