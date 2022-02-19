@@ -27,7 +27,7 @@ const MotionButton = motion(Button);
 export function PageHeader() {
 
     return (
-      <Container maxW={'7xl'} height={"92vh"}>
+      <Container maxW={'7xl'} >
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
