@@ -58,7 +58,7 @@ const cardValues = {
 export function ProductItems() {
 
     return (
-      <Box py={12} height={"100vh"}>
+      <Box py={12}>
         <VStack spacing={2} textAlign="center">
           <Heading as="h1" fontSize="4xl">
             PAGUE POR 1 E LEVE OUTROS 2!
