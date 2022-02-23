@@ -26,13 +26,23 @@ export function HeaderLogo(){
                     {/* LADO DIREITO */}
                     <VStack>
                         {/* PARTE DE CIMA DO LADO DIREITO - MÃO */}
-                        <MotionBox
+                        <MotionBox 
+                         animate = "up_down"
+                         variants = {{
+                             up_down:{
+                                 y: [-20, 5],
+                                 transition:{
+                                     delay: 0, duration: 1.5, repeat: Infinity, repeatType: "reverse", repeatDelay: 0
+                                 }
+                             }
+                         }}
                         >
                             <Image 
                             src="/images/png_jpeg/hand_black.png" 
                             alt="Title Hand" 
                             rounded={'lg'}
                             objectFit={'cover'}
+                            translateX = "-5"
                             />
                         </MotionBox>
 
