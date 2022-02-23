@@ -90,20 +90,6 @@ export function PageHeader() {
               color={useColorModeValue('red.50', 'red.400')}
             />
             <MotionBox
-              initial = "smaller" 
-              animate="normal"
-              variants={{
-                smaller:{
-                  scale: 0.2
-                },
-                normal: {
-                  scale: 1,
-                  rotate: [0, -10, 10, 0],
-                  transition: {
-                    delay: 0.3,
-                  },
-                },
-              }}
               position={'relative'}
               height={'325px'}
               rounded={'2xl'}
