@@ -19,7 +19,8 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
 
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+
 const MotionBox = motion(Box);
 const MotionText = motion(Text);
 const MotionButton = motion(Button);
@@ -46,7 +47,7 @@ export function PageHeader() {
             </Text>
             <Text color={'gray.500'}>
               Esse livro oferece os fundamentos com uma linguagem acessível e intuitiva para lidar com qualquer linguagem de programação, e 
-              em <Text as={'span'} color={'red.400'} fontWeight={600}>MENOS DE 20 PÁGINAS!</Text>
+              em <Text as={'span'} color={'red.400'} fontWeight={600}>MENOS DE 25 PÁGINAS!</Text>
             </Text>
             <Stack
               spacing={{ base: 6, sm: 6 }}
