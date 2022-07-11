@@ -1,13 +1,13 @@
-import {Image} from '@chakra-ui/react';
+import { Image } from '@chakra-ui/react';
 
-export function HeaderImage(){
+export function HeaderImage() {
 
-    return(
-        <Image 
-        src="/images/png_jpeg/lp_ebook_capas.png" 
-        alt="Ebooks do Pacote" 
-        rounded={'lg'}
-        objectFit={'cover'}
+    return (
+        <Image
+            src="/images/png_jpeg/lp_capa_transp.png"
+            alt="Ebooks do Pacote"
+            rounded={'lg'}
+            objectFit={'cover'}
         />
     );
 }
